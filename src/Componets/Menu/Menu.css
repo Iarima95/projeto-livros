@@ -1,0 +1,24 @@
+#MenuPrincipal{
+    font-size: 20px;
+    display: flex;
+    flex-direction:column;
+   
+    
+    
+}
+.btnMenu{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 231, 218);
+    align-items: center;
+    margin: 5px 10px 5px 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+   
+   
+    
+}
+a{
+    text-decoration: none;
+}
+

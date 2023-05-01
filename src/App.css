@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body{
+    background-color: #fffffff3;
+    display: flex;
+    justify-content: center;
+}
+.centro{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.App{
+    background-color: rgb(231, 230, 229);
+    width: 800px;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.esquerda{
+    display: flex;
+    justify-content:end;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    display:flex;
+    width: 800px;
+    height: 400px;
+    font-size: 20px;
+    align-items: center;
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    
+}
+.MeusLivros{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.Biblioteca{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Avaliacoes{
+    display:flex;
+    align-items: center;
+    flex-direction:row;
 }
