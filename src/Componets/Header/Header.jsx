@@ -6,8 +6,8 @@ function Header(props){
         <header>
             <img id="Perfil" src={props.perfil} alt="fotoPerfil" />
             <h2 className="CabecalhoName" >{props.name}</h2>
-            <h2 className="Cabecalho">{props.texto1}</h2>
-            <h2 className="Cabecalho">{props.texto2}</h2>
+            <a id="textoCabecalho1" href="">{props.texto1}</a>
+            <a id="textoCabecalho2" href="">{props.texto2}</a>
         </header>
     );
 }
