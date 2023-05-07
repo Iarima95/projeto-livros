@@ -14,6 +14,7 @@ function Avaliado(props) {
                 </div>
 
             </div>
+            
         </div>
 
     );

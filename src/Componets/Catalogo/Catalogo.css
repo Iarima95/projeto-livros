@@ -1,19 +1,20 @@
 
 #Catalogo{
    
+   flex-wrap: wrap;
     display: flex;
-    width: 620px;
-    height: 100px;
+    flex-direction: row;
     align-items: center;
-    margin: 5px;
-    flex-flow: nowrap;
+    margin: 25px 90px;
+    
+    
   
 }
 #Catalogo1{
     padding-right: -50%;
     margin: 0px -50% 0px 0px;
-    display: flex;
-    flex-direction: row;
+  
+    
     position: relative;
 
     align-content: stretch;

@@ -1,13 +1,12 @@
 
 #Livro{
-    
+    display: flex;
     flex-direction: row;
     width: 80px;
     height: 100px;
     padding: 10px;
     flex-wrap: wrap;
+
     
     
 }
-
-
