@@ -4,40 +4,35 @@ body{
     justify-content: center;
 }
 .centro{
-    display:flex;
+    
     align-items: center;
     flex-direction: column;
 
 }
 .App{
-    background-color: rgb(231, 230, 229);
-    width: 800px;
+    background-color: #FCF1F1;
+    width: 1000px;
     min-height: 100vh;
     padding-bottom: 50px;
 }
-.esquerda{
-    display: flex;
-    justify-content:end;
-}
 
 .container{
-    display:flex;
-    width: 800px;
-    height: 400px;
+   
+    display: flex;
+    flex-direction: row;
     font-size: 20px;
     align-items: center;
     
-    flex-direction: row;
-    flex-wrap: wrap;
+    
  
     
 }
 .MeusLivros{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
+    
+    
+   
     align-items: center;
-    flex-direction: row;
+    
     
 }
 
@@ -45,8 +40,8 @@ body{
 .Biblioteca{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+    font-family: arial;
     font-size: 15px;
 }
 
@@ -54,4 +49,8 @@ body{
     display:flex;
     align-items: center;
     flex-direction:row;
+}
+
+.Ultimas{
+    margin-top: 60px;
 }

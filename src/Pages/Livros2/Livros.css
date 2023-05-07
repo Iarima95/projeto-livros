@@ -1,0 +1,60 @@
+#Avaliado2{
+    display: flex;
+    padding: 10px;
+    margin-top: 30px;
+    width: 120px;
+    height: 150px;
+}
+
+.resenha1{
+    font-size: 15px;
+}
+
+#LivroAvaliado2{
+    align-items: center;
+    width: 100%;
+    min-width: 400px;
+    height: 250px;
+ 
+    
+}
+#Tarefas2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 30px;
+    
+}
+#final2{
+    height: 160px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.vouLer{
+    display: flex;
+    align-items: center;
+    text-decoration-line:none;
+    color: #000;
+    background-color: #cbbcb8;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+button{
+    background-color: #cbbcb8;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 1;
+    
+}
+

@@ -1,22 +1,30 @@
 import React from "react";
 import "./Menu.css";
+import {Link} from "react-router-dom";
 
 function Menu(props) {
     return (
         <div id="MenuPrincipal">
-            <div className="btnMenu" id="Icone1">
-                <a id="menuIcone" href="">{props.icone1}{props.info1}</a>
+            
+            <Link to= "/Favoritos"><div className="btnMenu" >
+               {props.icone1}{props.info1}
                 
-            </div>
-            <div className="btnMenu" id="Icone2">
-            <a id="menuIcone" href="">{props.icone2}{props.info2}</a>
-            </div>
-            <div className="btnMenu" id="Icone3">
-            <a id="menuIcone" href="">{props.icone3}{props.info3}</a>
-            </div>
-            <div className="btnMenu" id="Icone4">
-            <a id="menuIcone" href="">{props.icone4}{props.info4}</a>
-            </div>
+            </div></Link> 
+            <Link to= "/Desejados"><div className="btnMenu" >
+               {props.icone2}{props.info2}
+                
+            </div></Link> 
+            <Link to= "/"><div className="btnMenu" >
+               {props.icone3}{props.info3}
+                
+            </div></Link> 
+            <Link to= "/Resenha"><div className="btnMenu" >
+               {props.icone4}{props.info4}
+                
+            </div></Link> 
+
+            
+            
         </div>
 
     );
